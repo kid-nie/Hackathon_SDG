@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airia Embed</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+        import AiriaChat from "https://embed-api.airia.ai/get-chat-embed.js"
+        AiriaChat.init({pipelineId: "ef4a5255-3bce-407e-8c4c-df89cf7225f8",
+                        apiKey: "ak-MjM5NTA1MDYyMnwxNzcyMzY1MzUzNDc1fHRpLVpHVmpiMlJwYm1jZ1pHRjBZU0J6WTJsbGJtTmxMVTl3Wlc0Z1VtVm5hWE4wY21GMGFXOXVMVkJ5YjJabGMzTnBiMjVoYkY5aVpXVXdZbUl3T0MweE9USTNMVFF4TVdRdFlqSTVPUzB4WkRSak5HTTRaVFUwWWpRPXwxfDM3NTc4NjQ4NDIg",
+                        apiUrl: "https://embed-api.airia.ai",
+                        greeting: "Hello! How can I assist you today?",
+                        imagePath: "https://yoursite.com/assets/chatbot-icon.png",
+                        imageSize: "small",
+                        imageBgColor: "#FFFFFF",
+                        autoOpen: true})
+    </script>
+  </body>
+</html>
